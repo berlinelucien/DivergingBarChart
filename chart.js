@@ -68,12 +68,12 @@ anychart.onDoucmentReady(function() {
     .enabled(true);
   
   // create a stacked bar chart from the multi-series bar chart
-  chart.yScale().stackMode("value");
+   chart.yScale().stackMode("value");
 
   // set a container id for the chart
-  chart.container("container");
+   chart.container("container");
   
   // initiate chart drawing
-  chart.draw();
+    chart.draw();
 
 });
